@@ -34,7 +34,7 @@ public class TileCuttingMachine extends TileMultiblockMachine implements IModula
 
 	private static final Object[][][] structure = new Object[][][]{			
 		    	 			 {{'I', 'c', 'O'}, 
-							  {LibVulpesBlocks.motors, AdvancedRocketryBlocks.blockSawBlade, new BlockMeta(LibVulpesBlocks.blockRFBattery, 0)}}};
+							  {LibVulpesBlocks.motors, AdvancedRocketryBlocks.blockSawBlade, 'P'}}};
 	
 
 	@Override
